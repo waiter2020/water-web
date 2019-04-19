@@ -1,4 +1,4 @@
-# vue006
+# water-web
 
 ## Project setup
 ```
