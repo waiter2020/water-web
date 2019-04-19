@@ -5,16 +5,24 @@
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
+    "noImplicitAny": false,
     "moduleResolution": "node",
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+//    "plugins": [{ "name": "ts-vue-plugin" }],
     "types": [
       "webpack-env",
       "mocha",
       "chai"
+    ],
+    "typeRoots": [
+      "./src/shims-vue.d.ts",
+      "./node_modules/vue/types"
     ],
     "paths": {
       "@/*": [
